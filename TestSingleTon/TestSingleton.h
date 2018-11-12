@@ -1,27 +1,3 @@
-#pragma once
-
-#include "Singleton.h"
-
-class TestSingleton : public Singleton<TestSingleton>
-{
-   friend Singleton<TestSingleton>;
-protected:
-   TestSingleton();
-public:
-   virtual ~TestSingleton();
-};
-
-
-
-TestSingleton::TestSingleton()
-{
-}
-
-
-TestSingleton::~TestSingleton()
-{
-}
-
 /*
 According to the C++ features, the static member function could not be a virtual function,
 and also the virtual member function could not be called in a static member function. So it's
@@ -45,3 +21,28 @@ protected:
 }
 
 */
+
+
+#pragma once
+
+#include "Singleton.h"
+
+class TestSingleton : public Singleton<TestSingleton>
+{
+   friend Singleton<TestSingleton>;
+protected:
+   TestSingleton();
+public:
+   virtual ~TestSingleton();
+};
+
+
+
+TestSingleton::TestSingleton()
+{
+}
+
+
+TestSingleton::~TestSingleton()
+{
+}
