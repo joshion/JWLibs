@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateLibs", "TemplateLibs\TemplateLibs.vcxitems", "{A577B125-4C59-4BA8-8883-2461B54C2E7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSingleton", "TestSingleTon\TestSingleton.vcxproj", "{011266BB-1115-4160-B314-13D382D30AF1}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TemplateLibs\TemplateLibs.vcxitems*{011266bb-1115-4160-b314-13d382d30af1}*SharedItemsImports = 4
+		TemplateLibs\TemplateLibs.vcxitems*{a577b125-4c59-4ba8-8883-2461b54c2e7d}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{011266BB-1115-4160-B314-13D382D30AF1}.Debug|x64.ActiveCfg = Debug|x64
+		{011266BB-1115-4160-B314-13D382D30AF1}.Debug|x64.Build.0 = Debug|x64
+		{011266BB-1115-4160-B314-13D382D30AF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{011266BB-1115-4160-B314-13D382D30AF1}.Debug|x86.Build.0 = Debug|Win32
+		{011266BB-1115-4160-B314-13D382D30AF1}.Release|x64.ActiveCfg = Release|x64
+		{011266BB-1115-4160-B314-13D382D30AF1}.Release|x64.Build.0 = Release|x64
+		{011266BB-1115-4160-B314-13D382D30AF1}.Release|x86.ActiveCfg = Release|Win32
+		{011266BB-1115-4160-B314-13D382D30AF1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
