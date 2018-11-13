@@ -16,5 +16,6 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Bridge.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Singleton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tlglobal.h" />
   </ItemGroup>
 </Project>

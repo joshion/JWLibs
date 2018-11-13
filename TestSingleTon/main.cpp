@@ -6,6 +6,6 @@ using namespace std;
 
 int main(int argc, char* args)
 {
-   TestSingleton *a = &TestSingleton::instance();
+   TestSingleton &a = TestSingleton::instance();
    return 0;
 }

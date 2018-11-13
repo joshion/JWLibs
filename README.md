@@ -13,11 +13,13 @@ Name should be descriptive, and avoid abbreviation.
     - MyProject.vcxproj.filter
     - MySolution.sln
 
-2. FileName
-    > Mostly, the FileName should be same as the ClassName
+2. filename
+    > Mostly, the FileName should be same as the ClassName. But, all the letters should be lowercase. By also, all the source file path, include the directory name should be lowercase too.
 
-    - Header.h
-    - Source.cpp
+    - header.h
+    - source.cpp
+    - project/inc/header.h
+    - resource/icon.png
 
 3. TypeName
     > Type name start with a capital letter and have a capital letter for each new word, with no underscores.

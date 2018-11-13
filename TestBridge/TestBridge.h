@@ -1,16 +1,20 @@
 #pragma once
 
-#include "Bridge.h"
+#include "Singleton.h"
 
 #include "TestBridgeGlobal.h"
 
-class TESTBRIDGE_EXPORT TestBridge
+class TESTBRIDGE_EXPORT TestBridge final
 {
-public:
+protected:
    TestBridge();
+public:
    virtual ~TestBridge();
 
+public:
+   static void func();
 private:
-   JW_DECLARE_IMPL(TestBridge)
-   JW_DISABLE_COPY(TestBridge)
+   JW_DECLARE_IMPL(TestBridge);
+   JW_DISABLE_COPY(TestBridge);
+   JW_DECLARE_STATIC(TestBridge);
 };
